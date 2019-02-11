@@ -18,7 +18,7 @@ You can use Azure Functions for this.
 
 ## Configure Excel Custom Function
 * open `customfunctions.ts`
-* set `signalRTokenEndpoint` with the URL to your Azure Functions Endpoint
+* set `signalRTokenEndpoint` to the URL of your Azure Functions negotiate endpoint
 
 ## Use this sample in Excel-Online
 * Open command-line

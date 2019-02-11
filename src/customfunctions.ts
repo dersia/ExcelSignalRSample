@@ -1,6 +1,6 @@
 ﻿import { HubConnection,HubConnectionBuilder, HttpTransportType, LogLevel } from '@aspnet/signalr'
 
-let signalRTokenEndpoint = "https://exceldemo2019.azurewebsites.net/api/NegotiateSignalR?code=kpeU5a/176jVsZuNX0Whx2PeJB0H9UNplbttwDPGWUhA/QGJL/LYpQ==";
+let signalRTokenEndpoint = "";
 
 function getSignalRInfo() {
   return fetch(signalRTokenEndpoint)
