@@ -1,0 +1,27 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/office-js/custom-functions.schema.json",
+  "functions": [
+    {
+      "id": "CONNECT_TO_SIGNALR",
+      "name": "CONNECT_TO_SIGNALR",
+      "description": "Connect to a SignalR Hub and Listen for a messagetype",
+      "helpUrl": "https://github.com/dersia/ExcelSignalRSample",
+      "result": {
+        "type": "string",
+        "dimensionality": "scalar"
+      },
+      "parameters": [
+        {
+          "name": "messagetype",
+          "description": "messagetype to listen on",
+          "type": "any",
+          "dimensionality": "scalar"
+        }
+      ],
+      "options": {
+        "cancelable": true,
+        "stream": true
+      }
+    }
+  ]
+}
